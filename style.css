@@ -28,37 +28,42 @@ a {
     padding-right: 33px;
 }
 
-.top {
+.intro {
     background-color: #F1E4E6;
+    height: 764px;
 }
-.top-box {
+.intro__wrap {
     display: flex;
-    /*justify-content: space-around;*/
-}
-.top-box-right {
-    display: flex;
-    max-height: 93px;
     align-items: center;
-    align-self: center;
+    height: 100%;
+    justify-content: flex-end;
+    background-image: url(img/headerman.png);
+    background-repeat: no-repeat;
+    background-position: -228px bottom;
 }
-.img-line-header {
-    padding-right: 16px;
+
+.intro__text {
+    max-width: 377px;
+    padding-right: 100px;
 }
-.main-title {
-font-weight: 900;
-font-size: 48px;
-line-height: 58px;
-color: #222222;
+.intro__text h1 {
+    padding-left: 20px;
+    border-left: 12px solid #F16D7F;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #222222;
 }
-.top-text {
-    flex-direction: column;
+.bold {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
 }
-.top-paragraph {
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-color: #222222;
+.decor {
+    color: #F16D7F;
 }
+
 .section-container-wrap {
     display: flex;
     /*flex-wrap: wrap;*/
