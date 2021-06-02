@@ -63,9 +63,59 @@ a {
 .decor {
     color: #F16D7F;
 }
-
-.section-container-wrap {
+.department {
+    margin-top: 65px;
+}
+.department__card {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    height: 260px;
+    /*background-color: grey;*/
+    margin-bottom: 30px;
+}
+.top__card__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.card__link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #F16D7F;
+}
+.department__wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.department__card:last-child {
+    width: 100%;
+}
+
+.for__women {
+    background-image: url(img/forwomenj.jpeg);
+}
+.for__men {
+    background-image: url(img/formenj.jpeg);
+}
+.for__kids {
+    background-image: url(img/forkidsj.jpeg);
+}
+.for__accesories {
+    background-image: url(img/accesoriesj.jpeg);
+}
+.section-container-wrap {
+    
     /*flex-wrap: wrap;*/
     justify-content: space-around;
 }
