@@ -3,7 +3,7 @@
     padding: 0;
 }
 .container {
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 body {
@@ -177,4 +177,24 @@ padding-top: 6px;
     color: #F16D7F;
     padding-top: 18px;
     padding-bottom: 20px;
+}
+.buttom__product {
+   /* display: flex;
+    justify-content: center;*/
+    margin-top: 49px;
+
+}
+.product__buttom {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 39px 14px 39px;
+    color: #F26376;
+    width: 211px;
+    
+    border: 1px solid #FF6A6A;
+    text-align: center;
+    margin: 0 auto;
+}
+.product__buttom__link {
+    text-align: center;
 }
