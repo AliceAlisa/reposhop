@@ -303,3 +303,38 @@ color: #222224;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
 }
+.all-rights {
+    height: 79px;
+    background: #222224;
+}
+.paragraph__all__rights {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+.social-network{
+    height: 32px;
+    width: 32px;
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+.list__social__network {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+.social__img {
+    margin: 0 auto;
+}
