@@ -179,10 +179,7 @@ padding-top: 6px;
     padding-bottom: 20px;
 }
 .buttom__product {
-   /* display: flex;
-    justify-content: center;*/
     margin-top: 49px;
-
 }
 .product__buttom {
     font-size: 16px;
@@ -197,4 +194,35 @@ padding-top: 6px;
 }
 .product__buttom__link {
     text-align: center;
+}
+.advantage {
+    margin-top: 95px;
+    background: #222224;
+    height: 341px;
+
+}
+.services-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+.service__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    color: #FBFBFB;
+    padding-top: 25px;
+}
+.paragraph__service {
+font-style: normal;
+font-weight: 300;
+font-size: 13.972px;
+line-height: 17px;
+text-align: center;
+color: #FBFBFB;
+padding-top: 16px;
+width: 360px;
 }
