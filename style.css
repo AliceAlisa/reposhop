@@ -149,6 +149,7 @@ padding-top: 6px;
 .product__text {
     background-color: #F8F8F8;
     padding-left: 18px;
+    padding-bottom: 20px;
 }
 .padding__right {
     padding-right: 30px;
@@ -170,13 +171,14 @@ padding-top: 6px;
     line-height: 17px;
     color: #5D5D5D;
     padding-top: 13px;
+    padding-bottom: 18px;
 }
-.product__link {
+.product__price {
+    font-style: normal;
+    font-weight: normal;    
     font-size: 16px;
     line-height: 19px;
     color: #F16D7F;
-    padding-top: 18px;
-    padding-bottom: 20px;
 }
 .buttom__product {
     margin-top: 49px;
