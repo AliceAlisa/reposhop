@@ -287,6 +287,7 @@ color: #222224;
 .submit__button {
     background: #F16D7F;
     padding: 7px 7px 6px 8px;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -331,12 +332,14 @@ color: #222224;
     align-items: center;
     height: 100%;
 }
-.social-network{
+.social__network{
+    display: flex;
+    justify-content: center;
     height: 32px;
     width: 32px;
     background-color: #FFFFFF;
     text-align: center;
-    
+    margin-right: 7px;
 }
 .list__social__network {
     display: flex;
@@ -347,4 +350,8 @@ color: #222224;
 }
 .social__img {
     margin: 0 auto;
+}
+.link__social__network {
+    display: flex;
+    justify-content: center;
 }
