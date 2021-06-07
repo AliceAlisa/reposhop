@@ -27,7 +27,26 @@ a {
 .link__menu__right {
     padding-right: 33px;
 }
-
+.basket {
+    position: relative;
+}
+.count {
+    position: absolute;
+    display: flex;
+    right: -9px;
+    top: -20px;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+    background: #F16D7F;
+    border-radius: 50%; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF; 
+}
 .intro {
     background-color: #F1E4E6;
     height: 764px;
