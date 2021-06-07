@@ -124,16 +124,16 @@ a {
 }
 
 .for__women {
-    background-image: url(img/forwomenj.jpeg);
+    background-image: url(img/forwomenblack.jpeg);
 }
 .for__men {
-    background-image: url(img/formenj.jpeg);
+    background-image: url(img/formenblack.jpeg);
 }
 .for__kids {
-    background-image: url(img/forkidsj.jpeg);
+    background-image: url(img/forkidsblack.jpeg);
 }
 .for__accesories {
-    background-image: url(img/accesoriesj.jpeg);
+    background-image: url(img/accesoriesblack.jpeg);
     background-repeat: no-repeat;
     height: 180px;
 }
