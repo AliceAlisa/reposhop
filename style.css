@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 a {
     text-decoration: none;
@@ -76,6 +76,7 @@ a {
     /*background-color: grey;*/
     margin-bottom: 30px;
 }
+
 .top__card__text {
     font-style: normal;
     font-weight: normal;
@@ -100,6 +101,7 @@ a {
 
 .department__card:last-child {
     width: 100%;
+    margin-bottom: 0px;
 }
 
 .for__women {
@@ -113,6 +115,8 @@ a {
 }
 .for__accesories {
     background-image: url(img/accesoriesj.jpeg);
+    background-repeat: no-repeat;
+    height: 180px;
 }
 .content {
     margin-top: 96px;
@@ -128,7 +132,7 @@ color: #222222;
 .paragraph__content {
 text-align: center;
 font-style: normal;
-font-weight: normal;
+font-weight: 300;
 font-size: 14px;
 line-height: 17px;
 color: #9F9F9F;
@@ -148,8 +152,7 @@ padding-top: 6px;
 }
 .product__text {
     background-color: #F8F8F8;
-    padding-left: 18px;
-    padding-bottom: 20px;
+    padding: 25px 29px 20px 18px;
 }
 .padding__right {
     padding-right: 30px;
@@ -163,7 +166,6 @@ padding-top: 6px;
     font-size: 13px;
     line-height: 16px;
     color: #000000;
-    padding-top: 25px;
 }
 .paragraph__product {
     font-weight: 300;
@@ -180,22 +182,24 @@ padding-top: 6px;
     line-height: 19px;
     color: #F16D7F;
 }
-.buttom__product {
+.button__product {
     margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    
 }
-.product__buttom {
+.button__text {
     font-size: 16px;
     line-height: 19px;
     padding: 15px 39px 14px 39px;
     color: #F26376;
     width: 211px;
-    
     border: 1px solid #FF6A6A;
-    text-align: center;
-    margin: 0 auto;
 }
-.product__buttom__link {
+.product__button__link {
     text-align: center;
+    border: none;
+    background-color: #FFFFFF;
 }
 .advantage {
     margin-top: 95px;
