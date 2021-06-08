@@ -393,6 +393,12 @@ a {
     line-height: 17px;
     color: #636363;
 }
+.nav__text > a:visited {
+    color: #636363;
+}
+.nav__text > a {
+    color: #636363;
+}
 .catalog__filter {
     height: 132px;
     display: flex;
@@ -405,6 +411,8 @@ a {
 .filter__right {
     align-self: center;
     display: flex;
+    margin: 0 auto;
+    padding-right: 130px;
 }
 .filter__text {
     padding-right: 11px;
@@ -412,7 +420,11 @@ a {
 .filter__select {
     align-self: center;
     padding-right: 10px;
-
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
 }
 .filter__select__padding__left {
     padding-left: 28px;
