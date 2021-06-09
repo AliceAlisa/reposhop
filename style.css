@@ -233,9 +233,10 @@ a {
   .product:hover .overlay {
     opacity: 1;
   }
-  .product:hover {
+  /*.product:hover {
     box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
   }
+  С пояляющейся тенью смотрится, конечно, лучше, но у дизайнера в макете тень не предусмотрена*/
 .button__product {
     margin-top: 49px;
     display: flex;
@@ -413,7 +414,9 @@ a {
     background-color: #F16D7F;
     color:  #FFFFFF;
 }
+
 /* CATALOG PAGE */
+
 .catalog__nav {
     background: #F8F3F4;
     height: 148px;
