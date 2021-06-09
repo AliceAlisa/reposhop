@@ -123,16 +123,16 @@ a {
 }
 
 .for__women {
-    background-image: url(img/forwomenblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forwomenj.jpeg);
 }
 .for__men {
-    background-image: url(img/formenblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/formenj.jpeg);
 }
 .for__kids {
-    background-image: url(img/forkidsblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forkidsj.jpeg);
 }
 .for__accesories {
-    background-image: url(img/accesoriesblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/accesoriesj.jpeg);
     background-repeat: no-repeat;
     height: 180px;
 }
@@ -222,6 +222,7 @@ a {
     border: none;
     background-color: #FFFFFF;
 }
+
 .advantage {
     margin-top: 95px;
     background: #222224;
@@ -439,4 +440,28 @@ a {
 }
 .product__box__catalog {
     margin-top: 0px;
+    margin-bottom: 49px;
+}
+.pages {
+    width: 283px;
+    border: 1px solid #EBEBEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px 15px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+.pages__link {
+    color: #C4C4C4;
+}
+.pages__link:hover {
+    color: #EF5B70;
+}
+.pages__arrow:hover {
+    fill: #EF5B70;
 }
