@@ -363,7 +363,7 @@ a {
     display: flex;
     align-items: center;
     color: #222224;
-    opacity: 0.67;
+    /*opacity: 0.67;*/
     padding-left: 22px;
     border: none;
     border-top-left-radius: 40px;
