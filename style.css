@@ -313,7 +313,8 @@ a {
     height: 49px;
     border: none;
     border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;   
+    border-bottom-right-radius: 40px;
+    cursor: pointer;   
 }
 .subscribe__input {
     background: #E1E1E1;
@@ -351,9 +352,6 @@ a {
 .social__network{
     display: flex;
     justify-content: center;
-    height: 32px;
-    width: 32px;
-    background-color: #FFFFFF;
     text-align: center;
     margin-right: 7px;
 }
@@ -367,6 +365,16 @@ a {
 .link__social__network {
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: black; 
+
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+}
+.link__social__network:hover {
+    background-color: #F16D7F;
+    color:  #FFFFFF;
 }
 /* CATALOG PAGE */
 .catalog__nav {
