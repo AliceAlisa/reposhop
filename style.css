@@ -513,13 +513,12 @@ a {
 .product__box__product {
     margin-bottom: 128px;
 }
-.chosed__product {
-    background: #F7F7F7;
-}
+
 .chosed__product__img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #F7F7F7;
 }
 .slider__arrow {
     padding: 12px;
@@ -536,6 +535,9 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    margin-top: -50px;
+    background-color:#FFFFFF;
 }
 .chosed__product__information {
     display: flex;
