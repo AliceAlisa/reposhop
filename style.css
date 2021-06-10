@@ -259,7 +259,12 @@ a {
     border: none;
     background-color: #FFFFFF;
 }
-
+.button__text:hover {
+    color: #FFFFFF;
+}
+.product__button__link:hover {
+    background-color:#F26376;
+}
 .advantage {
     margin-top: 95px;
     background: #222224;
