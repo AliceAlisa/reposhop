@@ -553,8 +553,7 @@ a {
     color: #F16D7F;
     padding-bottom: 12px;
     border-bottom: 4px solid #EF5B70;
-   /* border-left: 12px solid #F16D7F;*/
-   margin-bottom: 12px;
+    margin-bottom: 12px;
 }
 .chosed__product__title {
     font-style: normal;
@@ -581,7 +580,6 @@ a {
     line-height: 29px;
     color: #EF5B70;
 }
-
 .chosed__product__filter {
     display: flex;
     justify-content: center;
@@ -606,7 +604,6 @@ a {
     line-height: 19px;
     color: #F26376;
     cursor: pointer;
-
 }
 .button__basket__logo {
     padding-right: 23px;
