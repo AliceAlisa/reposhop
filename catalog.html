@@ -5,10 +5,334 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d685574eda.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <header class="header">
+        <div class="container menu">
 
+            <div class="menu__left">
+                <a href="index.html" class="link__menu__left">
+                    <img src="img/logo.png" alt="menu photo1">
+                </a>
+                <a href="#">
+                    <img src="img/loupe.svg" alt="menu photo2">
+                </a>
+            </div>
+
+            <div class="menu__right">
+                <a href="#" class="link__menu__right">
+                    <img src="img/menu.svg" alt="menu photo3">
+                </a>
+                <a href="#" class="link__menu__right">
+                    <img src="img/account.svg" alt="menu photo4">
+                </a>
+                <a href="#" class="basket">
+                    <img src="img/basket.svg" alt="menu photo5">
+                    <span class="count">5</span>
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="catalog__nav">
+            <div class="container new__arrivals">
+                <h1 class="catalog__title">NEW ARRIVALS</h1>
+                <p class="nav__text">
+                    <a href="index.html">HOME</a>
+                    / <a href="#">MEN</a> /
+                    <a href="#"><span class="decor">NEW ARRIVALS</span></a></p>
+            </div>
+        </section>
+
+        <section class="catalog__filter container">
+            <div class="filter__left">
+                <p class="filter__text">FILTER</p>
+                <img src="img/filterlogo.svg">
+            </div>
+            <div class="filter__right">
+                <p class="filter__select">TRENDING NOW</p>
+                <img src="img/filterarrow.svg" alt="filter__arrow">
+                <p class="filter__select filter__select__padding__left">SIZE</p>
+                <img src="img/filterarrow.svg" alt="filter__arrow">
+                <p class="filter__select filter__select__padding__left">PRICE</p>
+                <img src="img/filterarrow.svg" alt="filter__arrow">
+            </div>
+        </section>
+
+        <section class="catalog__content container">
+            <div class="product__box product__box__catalog">
+
+                <article class="product margin__right">
+                    <div class="product__img">
+                        <img src="img/product1.png" alt="photo 1" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of
+                            cool Kym Ellery teams up with Moda Operandi.
+                        </p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__right">
+                    <div class="product__img">
+                        <img src="img/catalog_foto2.png" alt="photo 2" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product__img">
+                        <img src="img/product3.png" alt="photo 3" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__right margin__top">
+                    <div class="product__img">
+                        <img src="img/product4.png" alt="photo 4" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__right margin__top">
+                    <div class="product__img">
+                        <img src="img/catalogfoto5.png" alt="photo 5" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__top">
+                    <div class="product__img">
+                        <img src="img/catalogfoto6.png" alt="photo 6" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__right margin__top">
+                    <div class="product__img">
+                        <img src="img/catalogfoto7.png" alt="photo 7" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__right margin__top">
+                    <div class="product__img">
+                        <img src="img/catalogfoto8.png" alt="photo 8" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+
+                <article class="product margin__top">
+                    <div class="product__img">
+                        <img src="img/catalogfoto9.png" alt="photo 9" class="img-product">
+                    </div>
+                    <div class="overlay">
+                        <button class="hidden__button"><img src="img/addtocart.svg" class="basket__logo"
+                                alt="basket logo">Add to Cart</button>
+                    </div>
+                    <div class="product__text">
+                        <a href="#" class="product__link">
+                            <h4 class="fourth-title">ELLERY X M'O CAPSULE</h4>
+                        </a>
+                        <p class="paragraph__product">Known for her sculptural takes on traditional tailoring,
+                            Australian
+                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
+                        <strong class="product__price">$52.00</strong>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <nav class="pages">
+            <a href=""><svg class="pages__arrow" width="9" height="14" viewBox="0 0 9 14"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.99512 2L3.99512 7L8.99512 12L7.99512 14L0.995117 7L7.99512 0L8.99512 2Z" />
+                </svg></a>
+            <p><a href="" class="pages__link">1</a></p>
+            <p><a href="" class="pages__link">2</a></p>
+            <p><a href="" class="pages__link">3</a></p>
+            <p><a href="" class="pages__link">4</a></p>
+            <p><a href="" class="pages__link">5</a></p>
+            <p><a href="" class="pages__link">6</a></p>
+            <p>...</p>
+            <p><a href="" class="pages__link">20</a></p>
+            <a href="" class="pages__arrow"><svg width="9" height="14" viewBox="0 0 9 14"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.994995 12L5.995 7L0.994995 2L1.995 0L8.995 7L1.995 14L0.994995 12Z" />
+                </svg></a>
+        </nav>
+
+
+        <section class="advantage">
+            <div class="services-box container">
+                <div class="service">
+                    <img src="img/delivery.svg" alt="services photo" class="img-services">
+                    <h4 class="service__title">Free Delivery</h4>
+                    <p class="paragraph__service">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion
+                        with extensive models.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <img src="img/sale2.svg" alt="services photo" class="img-services">
+                    <h4 class="service__title">Sales & discounts</h4>
+                    <p class="paragraph__service">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion
+                        with extensive models.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <img src="img/quality.svg" alt="services photo" class="img-services">
+                    <h4 class="service__title">Quality assurance</h4>
+                    <p class="paragraph__service">Worldwide delivery on all. Authorit tively morph next-generation innov
+                        tion
+                        with extensive models.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="subscribe">
+            <div class="subscribe__box container">
+                <div class="subscribe__left">
+                    <img src="img/womenfooter.png" alt="photo" class="img-footer">
+                    <p class="feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="italic"> a
+                            pulvinar purus condimentum“</span></p>
+                </div>
+                <div class="subscribe__right">
+                    <h5 class="subscribe__title">SUBSCRIBE</h5>
+                    <p class="subscribe__paragraph">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="#" class="subscribe__form">
+                        <input type="email" placeholder="Enter Your Email" class="subscribe__input" required>
+                        <button type="submit" class="submit__button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-rights">
+            <div class="container footer__wrap">
+                <p class="paragraph__all__rights">
+                    &copy;2021 Brand All Rights Reserved.
+                </p>
+                <div class="list__social__network">
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-facebook-f"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-instagram"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-pinterest-p"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-twitter"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

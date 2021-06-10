@@ -123,16 +123,16 @@ a {
 }
 
 .for__women {
-    background-image: url(img/forwomenblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forwomenj.jpeg);
 }
 .for__men {
-    background-image: url(img/formenblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/formenj.jpeg);
 }
 .for__kids {
-    background-image: url(img/forkidsblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forkidsj.jpeg);
 }
 .for__accesories {
-    background-image: url(img/accesoriesblack.jpeg);
+    background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/accesoriesj.jpeg);
     background-repeat: no-repeat;
     height: 180px;
 }
@@ -166,17 +166,15 @@ a {
     width: 360px;
     display: flex;
     flex-direction: column;
-
+    position: relative;
 }
 .product__text {
     background-color: #F8F8F8;
     padding: 25px 29px 20px 18px;
 }
-.padding__right {
-    padding-right: 30px;
-}
-.padding__top {
-    padding-top: 30px;
+
+.margin__top {
+    margin-top: 30px;
 }
 .fourth-title {
     font-style: normal;
@@ -200,6 +198,45 @@ a {
     line-height: 19px;
     color: #F16D7F;
 }
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 420px;
+    width: 360px;
+    background-color: rgba(58, 56, 56, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .hidden__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+    padding: 13px;
+    background: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .basket__logo {
+      padding-right: 11px;
+  }
+  .product:hover .overlay {
+    opacity: 1;
+  }
+  /*.product:hover {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+  }
+  С пояляющейся тенью смотрится, конечно, лучше, но у дизайнера в макете тень не предусмотрена*/
 .button__product {
     margin-top: 49px;
     display: flex;
@@ -222,6 +259,7 @@ a {
     border: none;
     background-color: #FFFFFF;
 }
+
 .advantage {
     margin-top: 95px;
     background: #222224;
@@ -313,7 +351,8 @@ a {
     height: 49px;
     border: none;
     border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;   
+    border-bottom-right-radius: 40px;
+    cursor: pointer;   
 }
 .subscribe__input {
     background: #E1E1E1;
@@ -324,7 +363,7 @@ a {
     display: flex;
     align-items: center;
     color: #222224;
-    opacity: 0.67;
+    /*opacity: 0.67;*/
     padding-left: 22px;
     border: none;
     border-top-left-radius: 40px;
@@ -351,9 +390,6 @@ a {
 .social__network{
     display: flex;
     justify-content: center;
-    height: 32px;
-    width: 32px;
-    background-color: #FFFFFF;
     text-align: center;
     margin-right: 7px;
 }
@@ -367,4 +403,104 @@ a {
 .link__social__network {
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: black; 
+
+    background-color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+}
+.link__social__network:hover {
+    background-color: #F16D7F;
+    color:  #FFFFFF;
+}
+
+/* CATALOG PAGE */
+
+.catalog__nav {
+    background: #F8F3F4;
+    height: 148px;
+}
+.new__arrivals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.catalog__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+.nav__text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+.nav__text > a:visited {
+    color: #636363;
+}
+.nav__text > a {
+    color: #636363;
+}
+.catalog__filter {
+    height: 132px;
+    display: flex;
+    justify-content: space-between;
+}
+.filter__left {
+    display: flex;
+    align-self: center;
+}
+.filter__right {
+    align-self: center;
+    display: flex;
+    margin: 0 auto;
+    padding-right: 130px;
+}
+.filter__text {
+    padding-right: 11px;
+}
+.filter__select {
+    align-self: center;
+    padding-right: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+.filter__select__padding__left {
+    padding-left: 28px;
+}
+.product__box__catalog {
+    margin-top: 0px;
+    margin-bottom: 49px;
+}
+.pages {
+    width: 283px;
+    border: 1px solid #EBEBEB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px 15px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C4C4C4;
+}
+.pages__link {
+    color: #C4C4C4;
+}
+.pages__link:hover {
+    color: #EF5B70;
+}
+.pages__arrow:hover {
+    fill: #EF5B70;
 }
