@@ -504,3 +504,105 @@ a {
 .pages__arrow:hover {
     fill: #EF5B70;
 }
+/* PRODUCT PAGE*/
+.product__box__product {
+    margin-bottom: 128px;
+}
+.chosed__product {
+    background: #F7F7F7;
+}
+.chosed__product__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.slider__arrow {
+    padding: 12px;
+    background: rgba(42, 42, 42, 0.15);
+    cursor: pointer;
+}
+.slider__arrow:hover {
+    fill: #EF5B70;
+}
+.main__product__information {
+    min-height: 601px;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chosed__product__information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 65px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 65px;
+}
+.chosed__collection {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #EF5B70;
+   /* border-left: 12px solid #F16D7F;*/
+   margin-bottom: 12px;
+}
+.chosed__product__title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    margin-bottom: 49px;
+}
+.chosed__product__text {
+    width: 555px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 33px;
+}
+.chosed__product__price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+}
+
+.chosed__product__filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chosed__product__button{
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button__chosed__product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 14px 56px 9px 24px;
+    border: 1px solid #FF6A6A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    cursor: pointer;
+
+}
+.button__basket__logo {
+    padding-right: 23px;
+}
