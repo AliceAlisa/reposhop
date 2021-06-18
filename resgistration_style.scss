@@ -1,0 +1,103 @@
+@mixin FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+@mixin FlexSpaceBtw {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin Font($font-weight, $font-size, $line-height) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+.content__registration {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    @include FlexSpaceBtw;
+
+    & fieldset {
+        @include FlexColumn;
+        border: none;
+        width: 360px;
+        margin-bottom: 33px;
+
+        & legend {
+            @include Font(300, 16px, 19px);
+            font-family: Lato;
+            color: #222222;
+            border: none;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 20px;
+        }
+
+        & input {
+            @include Font(300, 13px, 16px);
+            font-family: Lato;
+            color: #B1B1B1;
+            margin-bottom: 22px;
+            padding-top: 13px;
+            padding-left: 17px;
+            padding-bottom: 16px;
+            border: 1px solid #A4A4A4;  
+        }
+        .gender {
+            @include Font(300, 11px, 13px);
+            display: flex;
+            align-items: center;
+            font-family: Lato;
+            color: #000000;
+
+            & input {
+                margin-right: 10px;
+            }
+            &--left {
+                margin-left: 20px;
+            }
+        }
+        & p {
+            @include Font(300, 13px, 16px);
+            width: 360px;
+            font-family: Lato;
+            color: #B1B1B1;
+        }
+    }
+    & button {
+        @include Font(normal, 14px, 17px);
+        background: #F16D7F;
+        padding: 16px 29px;
+        border: none;
+        font-family: Lato;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        & img {
+            padding-left: 20px;   
+        }
+    }
+
+    .loyality {
+        @include FlexColumn;
+        @include Font(300, 24px, 29px);
+        width: 652px;
+        align-items: flex-start;
+        color: #000000;
+
+        & h2 {
+            @include Font(300, 24px, 29px);
+            margin-bottom: 22px;
+        }
+        &__paragraph {
+            margin-bottom: 21px;
+        }
+        &__select {
+            display:flex;
+            margin-bottom: 16px;
+        }
+        &__logo {
+            padding-right: 23px;
+        }
+    }
+}
