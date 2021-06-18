@@ -1,0 +1,152 @@
+@mixin FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+@mixin FlexSpaceBtw {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin Font($font-weight, $font-size, $line-height) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+.cart__content {
+    margin-top: 56px;
+    @include FlexSpaceBtw();
+}
+.item__added {
+    @include FlexColumn();
+    margin-bottom: 129px;
+    &__card {
+        display: flex;
+        width: 652px;
+        height: 306px;
+        box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
+        margin-top: 40px;
+    }
+    &__information {
+        margin-left: 31px;
+        margin-top: 22px;
+    }
+    &__x {
+        margin-left: 105px;
+        margin-top: 22px;
+        cursor: pointer;
+    }
+    
+    & h3 {
+        @include Font(normal, 24px, 29px);
+        width: 211px;
+        color: #222222;
+        margin-bottom: 42px;
+    }
+    & p {
+        @include Font(normal, 22px, 26px);
+        padding-bottom: 6px;
+        color: #575757;
+    }
+    & form {
+        display: flex;
+        & input {
+            @include Font (normal, 18px, 22px);
+            margin-left: 25px;
+            padding-left: 13px;
+            border: 1px solid #EAEAEA;
+            width: 43px;
+            text-align: center;
+            color: #656565;
+        }
+    }
+    &__buttons {
+        @include FlexSpaceBtw();
+        width: 652px;
+        margin-top: 73px;
+        & button {
+            @include Font (300, 14px, 17px);
+            font-family: Lato;
+            border: 1px solid #A4A4A4;
+            padding: 16px 40px;
+            color: #000000;
+            cursor: pointer;
+            background-color: #FFFFFF;;
+        }
+    }
+}
+.cart__information {
+    @include FlexColumn();
+    width: 360px;
+    margin-top: 57px;
+
+    & fieldset {
+        @include FlexColumn();
+        border: none;
+        margin-bottom: 57px;
+
+        & button {
+            @include Font (300, 11px, 13px);
+            width: 100px;
+            font-family: Lato;
+            color: #4A4A4A;
+            padding-top: 13px;
+            padding-bottom: 16px;
+            border: 1px solid #A4A4A4;
+            background: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+    &__column { 
+        @include Font (300, 13px, 16px);
+        font-family: Lato;
+        color: #B1B1B1;
+        margin-bottom: 22px;
+        padding-top: 13px;
+        padding-left: 17px;
+        padding-bottom: 16px;
+        border: 1px solid #A4A4A4;
+    }
+    & legend {
+        font-size: 16px;
+        line-height: 19px;
+        color: #222222;
+        border: none;
+        padding-left: 0px;
+    }
+    &__total {
+        @include FlexColumn();
+        height: 133px;
+        background: #F5F3F3;
+        align-items: center;
+        padding-top: 39px;
+        padding-bottom: 42px;
+
+        &__price {
+            width: 275px;
+            border-bottom: 1px solid  #E2E2E2;
+            .sub__total {
+                @include Font (normal, 11px, 13px);
+                text-align: right;
+                color: #4A4A4A;
+                margin-bottom: 12px;
+            }
+            .grand__total{
+                @include Font (300, 16px, 19px);
+                color: #222222;
+                padding-bottom: 21px;
+                text-align: right;
+            }
+        }
+        & button {
+            @include Font (300, 16px, 19px);
+            font-family: Lato;
+            margin-top: 17px;
+            width: 273px;
+            padding: 16px 41px;
+            background: #F16D7F;
+            border: none;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+}
