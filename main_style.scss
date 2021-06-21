@@ -1,3 +1,5 @@
+
+/*CATALOG SIZE FILTER*/
 .filter__drop {
     position: relative;
 
@@ -18,7 +20,6 @@
         box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
         width: 69px;
         background-color: #FFFFFF;
-        /*height: 103px;*/
 
         & label {
             padding-top: 8px;
@@ -30,8 +31,20 @@
     }
 }
 .filter__drop:hover .filter__fieldset{
-   /* display: block;*/
     display:flex;
     flex-direction: column;
     z-index: 1;
+}
+/*INDEX.HTML BUTTON ANIMATION*/
+.product__button__link{
+    transition: cubic-bezier(.21,.91,.95,.1) all 3s;
+}
+.product__button__link:hover {
+    transform: scale(1.5) rotate(720deg);
+    background-color: #F16D7F;
+    border-radius: 40px;
+}
+.button__text:hover {
+    color: #FFFFFF;
+    border: none;
 }
