@@ -40,6 +40,10 @@
   color: #6F6E6E;
 }
 
+.filter__drop fieldset label input {
+  margin-right: 10px;
+}
+
 .filter__drop:hover .filter__fieldset {
   display: -webkit-box;
   display: -ms-flexbox;

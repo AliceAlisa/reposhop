@@ -27,6 +27,10 @@
             font-size: 14px;
             line-height: 16px;
             color: #6F6E6E;
+            
+            & input {
+                margin-right: 10px;
+            }
         }
     }
 }
