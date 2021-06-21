@@ -44,6 +44,14 @@
   margin-right: 10px;
 }
 
+.filter__drop fieldset label input:hover {
+  cursor: pointer;
+}
+
+.filter__drop fieldset label:hover {
+  cursor: pointer;
+}
+
 .filter__drop:hover .filter__fieldset {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -53,6 +61,10 @@
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: 1;
+}
+
+.filter__drop__titel:hover {
+  cursor: pointer;
 }
 
 /*INDEX.HTML BUTTON ANIMATION*/
