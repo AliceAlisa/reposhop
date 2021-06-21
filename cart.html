@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="newstyle.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d685574eda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container menu">
+
+            <div class="menu__left">
+                <a href="index.html" class="link__menu__left">
+                    <img src="img/logo.png" alt="menu photo1">
+                </a>
+                <a href="#">
+                    <img src="img/loupe.svg" alt="menu photo2">
+                </a>
+            </div>
+
+            <div class="menu__right">
+                <a href="#" class="link__menu__right">
+                    <img src="img/menu.svg" alt="menu photo3">
+                </a>
+                <a href="#" class="link__menu__right">
+                    <img src="img/account.svg" alt="menu photo4">
+                </a>
+                <a href="#" class="basket">
+                    <img src="img/basket.svg" alt="menu photo5">
+                    <span class="count">5</span>
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="catalog__nav">
+            <div class="container new__arrivals">
+                <h1 class="catalog__title">SHOPPING CART</h1>
+            </div>
+        </section>
+
+        <section class="cart__content container">
+            <div class="item__added">
+                <div class="item__added__card">
+                    <img src="img/cart_img.jpeg" alt="photo item">
+                    <div class="item__added__information">
+                        <h3>MANGO PEOPLE T-SHIRT</h3>
+                        <p>Price: <span class="decor">$300</span> </p>
+                        <p>Color: Red</p>
+                        <p>Size: Xl </p>
+                        <form action="#">
+                            <p>Quantity: </p> <input type="number" placeholder="2" required>
+                        </form>
+                    </div>
+                    <svg width="18" height="18" class="item__added__x" viewBox="0 0 18 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                            fill="#575757" />
+                    </svg>
+                </div>
+
+                <div class="item__added__card">
+                    <img src="img/cart_img2.jpeg" alt="photo item">
+                    <div class="item__added__information">
+                        <h3>MANGO PEOPLE T-SHIRT</h3>
+                        <p>Price: <span class="decor">$300</span> </p>
+                        <p>Color: Red</p>
+                        <p>Size: Xl </p>
+                        <form action="#">
+                            <p>Quantity: </p> <input type="number" placeholder="2" required>
+                        </form>
+                    </div>
+                    <svg width="18" height="18" class="item__added__x" viewBox="0 0 18 18" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.2453 9L17.5302 2.71516C17.8285 2.41741 17.9962 2.01336 17.9966 1.59191C17.997 1.17045 17.8299 0.76611 17.5322 0.467833C17.2344 0.169555 16.8304 0.00177586 16.4089 0.00140366C15.9875 0.00103146 15.5831 0.168097 15.2848 0.465848L9 6.75069L2.71516 0.465848C2.41688 0.167571 2.01233 0 1.5905 0C1.16868 0 0.764125 0.167571 0.465848 0.465848C0.167571 0.764125 0 1.16868 0 1.5905C0 2.01233 0.167571 2.41688 0.465848 2.71516L6.75069 9L0.465848 15.2848C0.167571 15.5831 0 15.9877 0 16.4095C0 16.8313 0.167571 17.2359 0.465848 17.5342C0.764125 17.8324 1.16868 18 1.5905 18C2.01233 18 2.41688 17.8324 2.71516 17.5342L9 11.2493L15.2848 17.5342C15.5831 17.8324 15.9877 18 16.4095 18C16.8313 18 17.2359 17.8324 17.5342 17.5342C17.8324 17.2359 18 16.8313 18 16.4095C18 15.9877 17.8324 15.5831 17.5342 15.2848L11.2453 9Z"
+                            fill="#575757" />
+                    </svg>
+                </div>
+                <div class="item__added__buttons">
+                    <button>CLEAR SHOPPING CART</button>
+                    <button>CONTINUE SHOPPING</button>
+                </div>
+            </div>
+
+            <div class="cart__information">
+                <form action="#">
+                    <fieldset>
+                        <legend class="cart__information__column">SHIPPING ADRESS</legend>
+                        <input type="text" placeholder="Bangladesh" required class="cart__information__column">
+                        <input type="text" placeholder="State" required class="cart__information__column">
+                        <input type="number" placeholder="Postcode / Zip" required class="cart__information__column">
+                        <button>GET A QUOTE</button>
+                    </fieldset>
+                </form>
+                <div class="cart__information__total">
+                    <div class="cart__information__total__price">
+                        <p class="sub__total">SUB TOTAL $900</p>
+                        <p class="grand__total">GRAND TOTAL <span class="decor">$900</span></p>
+                    </div>
+                    <button>PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="subscribe">
+            <div class="subscribe__box container">
+                <div class="subscribe__left">
+                    <img src="img/womenfooter.png" alt="photo" class="img-footer">
+                    <p class="feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="italic"> a
+                            pulvinar purus condimentum“</span></p>
+                </div>
+                <div class="subscribe__right">
+                    <h5 class="subscribe__title">SUBSCRIBE</h5>
+                    <p class="subscribe__paragraph">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="#" class="subscribe__form">
+                        <input type="email" placeholder="Enter Your Email" class="subscribe__input">
+                        <button type="submit" class="submit__button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-rights">
+            <div class="container footer__wrap">
+                <p class="paragraph__all__rights">
+                    &copy;2021 Brand All Rights Reserved.
+                </p>
+                <div class="list__social__network">
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-facebook-f"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-instagram"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-pinterest-p"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-twitter"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
