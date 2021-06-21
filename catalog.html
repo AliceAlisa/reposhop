@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalog</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main_style.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d685574eda.js" crossorigin="anonymous"></script>
@@ -59,8 +60,19 @@
             <div class="filter__right">
                 <p class="filter__select">TRENDING NOW</p>
                 <img src="img/filterarrow.svg" alt="filter__arrow">
-                <p class="filter__select filter__select__padding__left">SIZE</p>
-                <img src="img/filterarrow.svg" alt="filter__arrow">
+                <div class="filter__drop">
+                    <div class="filter__drop__titel">
+                        <p class="filter__select filter__select__padding__left filter__size">SIZE</p>
+                        <img src="img/filterarrow.svg" alt="filter__arrow filter__size">
+                    </div>
+                    <fieldset class="filter__fieldset">
+                        <legend></legend>
+                        <label for="XS"><input id="XS" type="checkbox"> XS</label>
+                        <label for="S"><input id="S" type="checkbox"> S</label>
+                        <label for="M"><input id="M" type="checkbox"> M</label>
+                        <label for="L"><input id="L" type="checkbox"> L</label>
+                    </fieldset>
+                </div>
                 <p class="filter__select filter__select__padding__left">PRICE</p>
                 <img src="img/filterarrow.svg" alt="filter__arrow">
             </div>

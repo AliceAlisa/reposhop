@@ -1,0 +1,37 @@
+.filter__drop {
+    position: relative;
+
+    &__titel {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & fieldset {
+        display:flex;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 11px;
+        border: none;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        width: 69px;
+        background-color: #FFFFFF;
+        /*height: 103px;*/
+
+        & label {
+            padding-top: 8px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #6F6E6E;
+        }
+    }
+}
+.filter__drop:hover .filter__fieldset{
+   /* display: block;*/
+    display:flex;
+    flex-direction: column;
+    z-index: 1;
+}
