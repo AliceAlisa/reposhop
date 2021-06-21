@@ -55,15 +55,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-family: Lato;
   color: #000000;
 }
 
 .content__registration fieldset .gender input {
   margin-right: 10px;
+  margin-bottom: 0px;
 }
 
 .content__registration fieldset .gender--left {

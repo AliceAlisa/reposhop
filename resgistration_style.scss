@@ -46,12 +46,12 @@
         .gender {
             @include Font(300, 11px, 13px);
             display: flex;
-            align-items: center;
             font-family: Lato;
             color: #000000;
-
+           
             & input {
                 margin-right: 10px;
+                margin-bottom: 0px;
             }
             &--left {
                 margin-left: 20px;
