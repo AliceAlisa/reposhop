@@ -150,3 +150,59 @@
         }
     }
 }
+/*Burger menu index*/
+.nav-burger {
+    width: 100%;
+    overflow: hidden;
+
+    &-menu {
+    display: none;
+    margin: 0;
+    padding: 1%;
+    list-style: none;
+    background: #cacaca;
+
+    width: 232px;
+    background-color: #fff;
+    height: calc(100vh - 63px);
+    padding: 20px;
+
+      /*  & li {
+        padding: 0 10px;
+        margin: 0 10px;
+        }*/
+    }
+    .toggle {
+        display: none;
+        }
+    .burger {
+        padding: 5px;
+        cursor: pointer;
+    }
+
+}
+   
+.nav-burger .toggle + .nav-burger-menu a {
+    color: white;
+}
+    
+.nav-burger .toggle:checked + .nav-burger-menu{
+    display: flex;
+    opacity: 1;
+    transition: all ease-in 0.3s;
+    color: white;
+}
+.nav__wrap {
+    position: relative;
+}
+.nav__close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+.header__nav{
+    position: absolute;
+  top: 64px;
+  right: 0;
+  z-index: 10;
+}

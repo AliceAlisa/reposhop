@@ -27,6 +27,10 @@ a {
 .link__menu__right {
     padding-right: 33px;
 }
+.menu__right {
+    display: flex;
+    align-items: center;
+}
 .basket {
     position: relative;
 }
@@ -34,7 +38,7 @@ a {
     position: absolute;
     display: flex;
     right: -9px;
-    top: -20px;
+    top: -9px;
     align-items: center;
     justify-content: center;
     width: 19px;
