@@ -164,13 +164,10 @@
 
     width: 232px;
     background-color: #fff;
-    height: calc(100vh - 63px);
-    padding: 20px;
+    height: 764px;
+    padding: 35px;
 
-      /*  & li {
-        padding: 0 10px;
-        margin: 0 10px;
-        }*/
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
     }
     .toggle {
         display: none;
@@ -183,26 +180,54 @@
 }
    
 .nav-burger .toggle + .nav-burger-menu a {
-    color: white;
+    color: #6F6E6E;
 }
     
 .nav-burger .toggle:checked + .nav-burger-menu{
     display: flex;
     opacity: 1;
     transition: all ease-in 0.3s;
-    color: white;
+    color: #6F6E6E;
 }
-.nav__wrap {
-    position: relative;
+.nav {
+    &__wrap{
+        position: relative;
+
+        & h2 {
+            @include Font(bold, 14px, 17px);
+            color: #000000;
+            padding-bottom: 24px;
+        }
+        & h3 {
+            @include Font(normal, 14px, 17px);
+            color: #F16D7F;
+            padding-bottom: 12px;
+
+        }
+    }
+    &__close {
+        position: absolute;
+        right: -58px;
+        top: -10px;
+        cursor: pointer;
+    }
+    &__list {
+        @include Font(normal, 14px, 17px);
+        font-family: 'Lato', sans-serif;
+        list-style-type: none;
+        color: #6F6E6E;
+        padding-bottom: 20px;
+    }
+    &__item {
+        padding-bottom: 11px;
+        padding-left: 21px;
+    }
 }
-.nav__close {
-    position: absolute;
-    right: -10px;
-    top: -10px;
-}
+
 .header__nav{
     position: absolute;
-  top: 64px;
+  top: 77px;
   right: 0;
   z-index: 10;
+  box-sizing: border-box;
 }
