@@ -91,7 +91,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   border: 1px solid #A4A4A4;
   padding: 16px 40px;
   color: #000000;
@@ -128,7 +128,7 @@
   font-size: 11px;
   line-height: 13px;
   width: 100px;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   color: #4A4A4A;
   padding-top: 13px;
   padding-bottom: 16px;
@@ -141,7 +141,7 @@
   font-weight: 300;
   font-size: 13px;
   line-height: 16px;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   color: #B1B1B1;
   margin-bottom: 22px;
   padding-top: 13px;
@@ -202,7 +202,7 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   margin-top: 17px;
   width: 273px;
   padding: 16px 41px;

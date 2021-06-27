@@ -65,7 +65,7 @@
         margin-top: 73px;
         & button {
             @include Font (300, 14px, 17px);
-            font-family: Lato;
+            font-family: 'Lato', sans-serif;
             border: 1px solid #A4A4A4;
             padding: 16px 40px;
             color: #000000;
@@ -87,7 +87,7 @@
         & button {
             @include Font (300, 11px, 13px);
             width: 100px;
-            font-family: Lato;
+            font-family: 'Lato', sans-serif;
             color: #4A4A4A;
             padding-top: 13px;
             padding-bottom: 16px;
@@ -98,7 +98,7 @@
     }
     &__column { 
         @include Font (300, 13px, 16px);
-        font-family: Lato;
+        font-family: 'Lato', sans-serif;
         color: #B1B1B1;
         margin-bottom: 22px;
         padding-top: 13px;
@@ -139,7 +139,7 @@
         }
         & button {
             @include Font (300, 16px, 19px);
-            font-family: Lato;
+            font-family: "Lato", sans-serif;
             margin-top: 17px;
             width: 273px;
             padding: 16px 41px;
