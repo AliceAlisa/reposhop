@@ -1,0 +1,87 @@
+/*CATALOG SIZE FILTER*/
+.filter__drop {
+  position: relative;
+}
+
+.filter__drop__titel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.filter__drop fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+  position: absolute;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-bottom: 11px;
+  border: none;
+  -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+          box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  width: 69px;
+  background-color: #FFFFFF;
+}
+
+.filter__drop fieldset label {
+  padding-top: 8px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #6F6E6E;
+}
+
+.filter__drop fieldset label input {
+  margin-right: 10px;
+}
+
+.filter__drop fieldset label input:hover {
+  cursor: pointer;
+}
+
+.filter__drop fieldset label:hover {
+  cursor: pointer;
+}
+
+.filter__drop:hover .filter__fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+}
+
+.filter__drop__titel:hover {
+  cursor: pointer;
+}
+
+/*INDEX.HTML BUTTON ANIMATION*/
+.product__button__link {
+  -webkit-transition: cubic-bezier(0.21, 0.91, 0.95, 0.1) all 3s;
+  transition: cubic-bezier(0.21, 0.91, 0.95, 0.1) all 3s;
+}
+
+.product__button__link:hover {
+  -webkit-transform: scale(1.5) rotate(720deg);
+          transform: scale(1.5) rotate(720deg);
+  background-color: #F16D7F;
+  border-radius: 40px;
+}
+
+.button__text:hover {
+  color: #FFFFFF;
+  border: none;
+}
+/*# sourceMappingURL=main_style.css.map */

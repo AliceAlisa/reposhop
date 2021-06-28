@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resgistration_style.css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d685574eda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container menu">
+
+            <div class="menu__left">
+                <a href="index.html" class="link__menu__left">
+                    <img src="img/logo.png" alt="menu photo1">
+                </a>
+                <a href="#">
+                    <img src="img/loupe.svg" alt="menu photo2">
+                </a>
+            </div>
+
+            <div class="menu__right">
+                <a href="#" class="link__menu__right">
+                    <img src="img/menu.svg" alt="menu photo3">
+                </a>
+                <a href="#" class="link__menu__right">
+                    <img src="img/account.svg" alt="menu photo4">
+                </a>
+                <a href="#" class="basket">
+                    <img src="img/basket.svg" alt="menu photo5">
+                    <span class="count">5</span>
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="catalog__nav">
+            <div class="container new__arrivals">
+                <h1 class="catalog__title">REGISTRATION</h1>
+            </div>
+        </section>
+
+        <section class="content__registration container">
+            <form action="#">
+                <fieldset>
+                    <legend>Your Name</legend>
+                    <input type="text" placeholder="First Name" required class="column__form">
+                    <input type="text" placeholder="Last Name" required class="column__form column--color">
+                    <div class="gender">
+                        <input type="radio" vlaue="male" id="male" name="gender__chose"><label for="male">Male</label>
+                        <input type="radio" vlaue="female" id="female" class="gender--left" name="gender__chose">
+                        <label for="female">Female</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Login details</legend>
+                    <input type="email" placeholder="Email" required class="column__form">
+                    <input type="password" placeholder="Password" required class="column__form column--email">
+                    <p class="paragraph__registration">
+                        Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                        letters
+                    </p>
+                </fieldset>
+                <button class="button__registration">JOIN NOW <img src="img/arrow_registration.svg"
+                        class="arrow_registration"></button>
+            </form>
+
+            <div class="loyality">
+                <h2>LOYALTY HAS ITS PERKS</h2>
+                <p class="loyality__paragraph">
+                    Get in on the loyalty program where you can earn points and unlock serious perks. Starting with
+                    these as soon as you join:
+                </p>
+
+                <div class="loyality__select">
+                    <img src="img/V.svg" class="loyality__logo">
+                    <p>
+                        15% off welcome offer
+                    </p>
+                </div>
+
+                <div class="loyality__select">
+                    <img src="img/V.svg" class="loyality__logo">
+                    <p>
+                        Free shipping, returns and exchanges on all orders
+                    </p>
+                </div>
+
+                <div class="loyality__select">
+                    <img src="img/V.svg" class="loyality__logo">
+                    <p>
+                        $10 off a purchase on your birthday
+                    </p>
+                </div>
+
+                <div class="loyality__select">
+                    <img src="img/V.svg" class="loyality__logo">
+                    <p>
+                        Early access to products
+                    </p>
+                </div>
+
+                <div class="loyality__select">
+                    <img src="img/V.svg" class="loyality__logo">
+                    <p>
+                        Exclusive offers & rewards
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="subscribe">
+            <div class="subscribe__box container">
+                <div class="subscribe__left">
+                    <img src="img/womenfooter.png" alt="photo" class="img-footer">
+                    <p class="feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span class="italic"> a
+                            pulvinar purus condimentum“</span></p>
+                </div>
+                <div class="subscribe__right">
+                    <h5 class="subscribe__title">SUBSCRIBE</h5>
+                    <p class="subscribe__paragraph">FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="#" class="subscribe__form">
+                        <input type="email" placeholder="Enter Your Email" class="subscribe__input">
+                        <button type="submit" class="submit__button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-rights">
+            <div class="container footer__wrap">
+                <p class="paragraph__all__rights">
+                    &copy;2021 Brand All Rights Reserved.
+                </p>
+                <div class="list__social__network">
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-facebook-f"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-instagram"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-pinterest-p"></i></a></div>
+                    <div class="social__network"><a href="#" class="link__social__network"><i
+                                class="fab fa-twitter"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
