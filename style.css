@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: Lato, sans-serif;
 }
 a {
     text-decoration: none;
@@ -94,7 +94,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 360px;
+    width: 32%;
     height: 260px;
     margin-bottom: 30px;
 }
@@ -128,12 +128,15 @@ a {
 
 .for__women {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forwomenj.jpeg);
+    background-position: center;
 }
 .for__men {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/formenj.jpeg);
+    background-position: center;
 }
 .for__kids {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forkidsj.jpeg);
+    background-position: center;
 }
 .for__accesories {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/accesoriesj.jpeg);
