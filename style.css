@@ -262,6 +262,7 @@ a {
     text-align: center;
     border: none;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 .button__text:hover {
     color: #FFFFFF;
