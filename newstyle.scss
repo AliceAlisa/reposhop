@@ -12,6 +12,7 @@
     line-height: $line-height;
 }
 
+/*CART PAGE*/
 .cart__content {
     margin-top: 56px;
     @include FlexSpaceBtw();
@@ -150,7 +151,8 @@
         }
     }
 }
-/*Burger menu index*/
+
+/*Burger menu*/
 .nav-burger {
     width: 100%;
     overflow: hidden;

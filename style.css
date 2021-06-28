@@ -518,13 +518,10 @@ details>summary {
 
 .filter__title[open]>summary {
     color: #EF5B70;
-    
 }
-/*.filter__title[open] {
-
-}*/
 .filter__content {
     position: absolute;
+    z-index: 9;
     background-color: #FFFFFF;
     width: 360px;
     left: 0;
@@ -562,9 +559,7 @@ details>summary {
     padding-top: 9px;
     padding-bottom: 14px;
 }
-.product__filter__position {
-    position: static;
-}/**/
+
 .product__box__catalog {
     margin-top: 0px;
     margin-bottom: 49px;
