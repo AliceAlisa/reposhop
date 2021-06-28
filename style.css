@@ -474,7 +474,7 @@ a {
     align-self: center;
     display: flex;
     margin: 0 auto;
-    padding-right: 412px;
+    padding-right: 95px;
 }
 .filter__text {
     padding-right: 11px;
@@ -494,7 +494,7 @@ a {
 }
 
 .filter {
-  width: 360px;
+  /*width: 360px;*/
   background-color: #FFFFFF;
   box-sizing: border-box;
   position: relative;
