@@ -603,10 +603,17 @@ details>summary {
     align-items: center;
     background: #F7F7F7;
 }
+.slider__img {
+    margin: 0 auto;
+}
 .slider__arrow {
     padding: 12px;
     background: rgba(42, 42, 42, 0.15);
     cursor: pointer;
+    position: absolute;
+}
+.slider__arrow__left {
+    right: 0px;
 }
 .slider__arrow:hover {
     fill: #EF5B70;
