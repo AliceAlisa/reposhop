@@ -1,10 +1,37 @@
 @media (max-width: 1100px) {
+    .advantage {
+        height: 610px;
+        margin-top: 65px;
+    }
+    .services-box {
+        flex-direction: column;
+        /*justify-content: center;*/
+        align-items: center;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+}
+@media (max-width: 1100px) {
     .header {
         padding-left: 32px;
         padding-right: 32px;
     }
     .product__box {
         justify-content: center;
+    }
+    .margin__top {
+        margin-top: 0px;
+    }
+    .product:nth-child(odd) {
+        margin-right: 20px;
+    }
+    .product {
+        margin-bottom: 17px;
+    }
+}
+@media (max-width: 720px) {
+    .product:nth-child(odd) {
+        margin-right: 0px;
     }
 }
 @media (max-width: 769px) {
@@ -40,10 +67,80 @@
 .department {
     margin: 20px 17px 155px 16px;
 }
+.margin__top {
+    margin-top: 0px;
+}
+.button__product {
+    margin-top: 15px;
+}
+.advantage {
+    margin-top: 65px;
+}
 
+.subscribe__box {
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe__right {
+    margin-top: 48px;
+    margin-bottom: 140px;
+}
+.subscribe {
+    height: 693px;
+    background-position: -400px center;
+}
+.subscribe__form {
+    width: 355px;
+    box-sizing: border-box;
+}
 }
 @media (max-width: 375px) {
+    .logos{
+        display: none;
+    }
+    .link__menu__right {
+        padding-right: 0px;
+    }
     .intro__wrap {
         background-image: none;
     }
+    .department {
+        margin-bottom: 64px;
+    }
+    .department__wrap {
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .department__card {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 32px;
+    }
+    .department__card:last-child {
+        height: 20vh;
+        margin-bottom: 0px;
+    }
+    .content {
+        margin-top: 0px;
+    }
+    .subscribe__right {
+        margin-bottom: 109px;
+    }
+    .subscribe {
+        height: 550px;
+        background-position: -400px center;
+    }
+   .footer__wrap {
+   flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+   }
+   .all-rights {
+    height: 143px;
+   }
+   .paragraph__all__rights {
+       margin-bottom: 9px;
+   }
 }
