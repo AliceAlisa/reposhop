@@ -31,11 +31,29 @@
     }
     .item__added {
         margin-bottom: 0px;
+        &__card {
+            width: 100%;
+        }
+        &__buttons {
+            width: 100%;
+        }
     }
     .cart__information {
-        display: flex;
-        justify-content: space-between;
+        
+        justify-content: center;
         flex-direction: row;
+        & fieldset {
+            width: 360px;
+            align-self: flex-start;
+        }
+        &__total {
+        margin-top: 70px;
+        margin-left: 15px;
+        }
+        &__total__price {
+            width: 360px; 
+        }
+    
     }
 }
 @media (max-width: 1100px) {
@@ -61,6 +79,9 @@
         margin-right: 0px;
     }
 }
+/*@media (max-width: 734px) {
+
+}*/
 @media (max-width: 769px) {
 .header {
     padding-left: 32px;
@@ -124,6 +145,68 @@
 .main__product__information {
     margin-top: 0px;
 }
+.cart__information {
+    flex-direction: column;
+    & fieldset {
+        margin-bottom: 48px;
+    }
+}
+.cart__information__total {
+    margin-left: 0px; 
+    margin-top: 0px;
+    margin-bottom: 96px;
+}
+}
+@media (max-width: 625px) {
+    .added__img {
+        width: 100%;
+    }
+    .item__added {
+        &__x {
+            margin-left: 54px;
+            margin-top: 9px;
+            width: 10px;
+            height: 11px;
+        }
+        
+        & h3 {
+            @include Font(normal, 16px, 19px);
+            width: 143px;
+            margin-bottom: 26px;
+        }
+        & p {
+            @include Font(normal, 14px, 17px);
+            padding-bottom: 4px;
+        }
+        & form {
+            & input {
+                @include Font (normal, 10px, 12px);
+                margin-left: 15px;
+                padding-left: 8px;
+                width: 23px;
+            }
+        }
+        &__buttons {
+            @include FlexSpaceBtw();
+            /*width: 652px;*/
+            margin-top: 73px;
+            & button {
+                @include Font (normal, 12px, 14px);
+                padding: 9px 17px;
+               
+            }
+        }
+        &__information {
+            margin-left: 17px;
+            margin-bottom: 38px;
+        }
+        .added__img {
+            width: 143px;
+       }
+    }
+    .cart__content {
+        margin-top: 0px;
+    }
 }
 @media (max-width: 600px) {
     .chosed__product__text {
@@ -135,7 +218,8 @@
     .slider__img {
         width: 100%;
     }
-}
+    
+    }
 @media (max-width: 420px) {
     .new__arrivals {
         flex-direction: column;
