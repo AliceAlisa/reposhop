@@ -603,9 +603,6 @@
   .cart__information__total__price {
     width: 360px;
   }
-}
-
-@media (max-width: 1100px) {
   .header {
     padding-left: 32px;
     padding-right: 32px;
@@ -623,6 +620,24 @@
   }
   .product {
     margin-bottom: 17px;
+  }
+  .content__registration {
+    margin-top: 40px;
+  }
+  .content__registration form {
+    margin-left: 16px;
+  }
+  .content__registration .loyality {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 22px;
+  }
+  .content__registration .loyality h2 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 22px;
   }
 }
 
@@ -787,6 +802,18 @@
   .slider__img {
     width: 100%;
   }
+  .content__registration {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content__registration .loyality {
+    width: 358px;
+  }
+  .content__registration .loyality h2 {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 420px) {
@@ -795,7 +822,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    /*justify-content: center;*/
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -822,6 +851,12 @@
   }
   .filter__select__padding__left {
     padding-left: 23px;
+  }
+  .content__registration form {
+    margin-left: 8px;
+  }
+  .content__registration fieldset {
+    width: 100%;
   }
 }
 

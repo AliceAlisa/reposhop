@@ -1,3 +1,8 @@
+@mixin Font($font-weight, $font-size, $line-height) {
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
 @media (max-width: 1100px) {
     .advantage {
         height: 610px;
@@ -55,8 +60,6 @@
         }
     
     }
-}
-@media (max-width: 1100px) {
     .header {
         padding-left: 32px;
         padding-right: 32px;
@@ -72,6 +75,20 @@
     }
     .product {
         margin-bottom: 17px;
+    }
+    .content__registration {
+            margin-top: 40px;
+        & form {
+            margin-left: 16px;
+        }
+        .loyality {
+        @include Font(300, 16px, 19px);
+        padding-left: 22px;
+        & h2 {
+            @include Font(300, 16px, 19px);
+            margin-bottom: 22px;
+            }
+        }
     }
 }
 @media (max-width: 720px) {
@@ -218,12 +235,21 @@
     .slider__img {
         width: 100%;
     }
+    .content__registration {
+        flex-direction: column;
+        .loyality {
+            width: 358px;
+            & h2 {
+                margin-top: 40px;
+            }
+        }
+    }
     
     }
 @media (max-width: 420px) {
     .new__arrivals {
         flex-direction: column;
-        /*justify-content: center;*/
+        justify-content: center;
         align-items: center;
     }
     .catalog__title {
@@ -248,6 +274,15 @@
     }
     .filter__select__padding__left {
         padding-left: 23px;
+    }
+    .content__registration {
+        & form {
+        margin-left: 8px;
+        }
+
+        & fieldset {
+        width: 100%;
+        }
     }
 }
 @media (max-width: 375px) {
