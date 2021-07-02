@@ -189,7 +189,7 @@
         & h3 {
             @include Font(normal, 16px, 19px);
             width: 143px;
-            margin-bottom: 26px;
+            margin-bottom: 11px;
         }
         & p {
             @include Font(normal, 14px, 17px);
@@ -216,6 +216,7 @@
         &__information {
             margin-left: 17px;
             margin-bottom: 38px;
+            margin-top: 13px;
         }
      /*   .added__img {
             width: 143px;
