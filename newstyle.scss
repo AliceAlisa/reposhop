@@ -22,8 +22,8 @@
     margin-bottom: 129px;
     &__card {
         display: flex;
-        width: 652px;
-        height: 306px;
+       /* width: 652px;
+        height: 306px;*/
         box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.15);
         margin-top: 40px;
     }
@@ -152,6 +152,98 @@
     }
 }
 
+/*REGISTRATION PAGE*/
+.content__registration {
+    margin-top: 64px;
+    margin-bottom: 96px;
+    @include FlexSpaceBtw;
+
+    & fieldset {
+        @include FlexColumn;
+        border: none;
+        width: 360px;
+        margin-bottom: 33px;
+
+        & legend {
+            @include Font(300, 16px, 19px);
+            font-family: Lato;
+            color: #222222;
+            border: none;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-bottom: 20px;
+        }
+
+        & input {
+            @include Font(300, 13px, 16px);
+            font-family: Lato;
+            color: #B1B1B1;
+            margin-bottom: 22px;
+            padding-top: 13px;
+            padding-left: 17px;
+            padding-bottom: 16px;
+            border: 1px solid #A4A4A4;  
+        }
+        .gender {
+            @include Font(300, 11px, 13px);
+            display: flex;
+            font-family: Lato;
+            color: #000000;
+           
+            & input {
+                margin-right: 10px;
+                margin-bottom: 0px;
+            }
+            &--left {
+                margin-left: 20px;
+            }
+        }
+        & p {
+            @include Font(300, 13px, 16px);
+            width: 360px;
+            font-family: Lato;
+            color: #B1B1B1;
+        }
+    }
+    & button {
+        @include Font(normal, 14px, 17px);
+        background: #F16D7F;
+        padding: 16px 29px;
+        border: none;
+        font-family: Lato;
+        color: #FFFFFF;
+        cursor: pointer;
+
+        & img {
+            padding-left: 20px;   
+        }
+    }
+
+    .loyality {
+        @include FlexColumn;
+        @include Font(300, 24px, 29px);
+        width: 652px;
+        align-items: flex-start;
+        color: #000000;
+
+        & h2 {
+            @include Font(300, 24px, 29px);
+            margin-bottom: 22px;
+        }
+        &__paragraph {
+            margin-bottom: 21px;
+        }
+        &__select {
+            display:flex;
+            margin-bottom: 16px;
+        }
+        &__logo {
+            padding-right: 23px;
+        }
+    }
+}
+
 /*Burger menu*/
 .nav-burger {
     width: 100%;
@@ -232,4 +324,71 @@
   right: 0;
   z-index: 10;
   box-sizing: border-box;
+
 }
+
+/*CATALOG SIZE FILTER*/
+.filter__drop {
+    position: relative;
+
+    &__titel {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & fieldset {
+        display:flex;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 11px;
+        border: none;
+        box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+        width: 69px;
+        background-color: #FFFFFF;
+
+        & label {
+            padding-top: 8px;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #6F6E6E;
+        
+            & input {
+                margin-right: 10px;
+            }
+            & input:hover {
+                cursor: pointer;
+            }   
+        }
+        & label:hover {
+            cursor: pointer;
+        }
+    }
+}
+.filter__drop:hover .filter__fieldset{
+    display:flex;
+    flex-direction: column;
+    z-index: 5;
+}
+.filter__drop__titel:hover {
+    cursor: pointer;
+}
+/*INDEX.HTML BUTTON ANIMATION*/
+.product__button__link{
+    transition: cubic-bezier(.21,.91,.95,.1) all 3s;
+}
+.product__button__link:hover {
+    transform: scale(1.5) rotate(720deg);
+    background-color: #F16D7F;
+    border-radius: 40px;
+}
+.button__text:hover {
+    color: #FFFFFF;
+    border: none;
+}
+
+@import "adaptive";
+
