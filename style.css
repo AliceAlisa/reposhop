@@ -129,14 +129,17 @@ a {
 .for__women {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forwomenj.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 .for__men {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/formenj.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 .for__kids {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/forkidsj.jpeg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 .for__accesories {
     background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/accesoriesj.jpeg);
