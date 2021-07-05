@@ -27,6 +27,10 @@ a {
 .link__menu__right {
     padding-right: 33px;
 }
+.menu__right {
+    display: flex;
+    align-items: center;
+}
 .basket {
     position: relative;
 }
@@ -34,7 +38,7 @@ a {
     position: absolute;
     display: flex;
     right: -9px;
-    top: -20px;
+    top: -9px;
     align-items: center;
     justify-content: center;
     width: 19px;
@@ -258,6 +262,7 @@ a {
     text-align: center;
     border: none;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 .button__text:hover {
     color: #FFFFFF;
@@ -514,13 +519,10 @@ details>summary {
 
 .filter__title[open]>summary {
     color: #EF5B70;
-    
 }
-/*.filter__title[open] {
-
-}*/
 .filter__content {
     position: absolute;
+    z-index: 9;
     background-color: #FFFFFF;
     width: 360px;
     left: 0;
@@ -558,9 +560,7 @@ details>summary {
     padding-top: 9px;
     padding-bottom: 14px;
 }
-.product__filter__position {
-    position: static;
-}/**/
+
 .product__box__catalog {
     margin-top: 0px;
     margin-bottom: 49px;
