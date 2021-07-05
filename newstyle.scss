@@ -12,7 +12,6 @@
     line-height: $line-height;
 }
 
-
 /*CART PAGE*/
 .cart__content {
     margin-top: 56px;
@@ -152,6 +151,7 @@
         }
     }
 }
+
 /*REGISTRATION PAGE*/
 .content__registration {
     margin-top: 64px;
@@ -243,6 +243,7 @@
         }
     }
 }
+
 /*Burger menu*/
 .nav-burger {
     width: 100%;
@@ -323,6 +324,7 @@
   right: 0;
   z-index: 10;
   box-sizing: border-box;
+
 }
 
 /*CATALOG SIZE FILTER*/
@@ -389,3 +391,4 @@
 }
 
 @import "adaptive";
+
